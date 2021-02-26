@@ -1,0 +1,51 @@
+.social-icons i{
+    padding: 15px;
+    background-color: #EEEEEE;
+}
+.social-icons i:hover{
+    background-color: #F33F3F;
+    color: white;
+    transition: all .2s;
+}
+.pictureBack{
+    text-align: center;
+    position: relative;
+}
+.pictureBack i{
+    margin-top: 30%;
+}
+.pictureBack .social-icons{
+   
+    display: none;
+}
+.pictureBack img:hover .pictureBack .social-icons{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F33F3F;
+    opacity: .6;
+    display: block !important;
+    z-index: 1;
+}
+.settings{
+    grid-gap: 57px;
+}
+.settings>.col-lg-3{
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    width: 30%;
+}
+.settingIcon{
+    width: 100%;
+    text-align: center;
+    background-color: #F7F7F7;
+    height: 200px;
+    padding-top: 60px;
+}
+.settingIcon i{
+    font-size: 2em;
+    color: white;
+    background-color: #F33F3F;
+    padding: 20px;
+}

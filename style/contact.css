@@ -1,0 +1,16 @@
+.accordions a:hover{
+    color: red !important;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+li p{
+    display: none;
+}
+li p.DisplayBlock{
+    display: block;
+}
+.accordions li a.DisplayBlock{
+    color: #DC3545 !important;
+}

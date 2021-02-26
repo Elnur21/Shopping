@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.mother{
+    width: 100%;
+    height: 800px;
+    padding: 23% 50%;
+    position: fixed !important;
+}
+.mother div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    opacity: .8;
+}
+.deactive{
+    transition: all 3s;
+    display: none;
+}
+.zooming{
+    animation: zoomLoad .2s ease-in-out 0.01s 1 alternate;
+}
+@keyframes zoomLoad{
+    form {transform: scale(1, 1);}
+    to {transform: scale(3, 3);}
+}
+header p a{
+  font-size: 1.5em;
+}
+header p a:hover{
+  color: inherit;
+}
+.mainPage a{
+  border-bottom: 3.2px solid red;
+  padding-bottom: 29px;
+}
+.slides{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide{
+  font-size: 1.5em;
+}
+.slide H1{
+  font-size: 3em;
+}
+@media only screen and (min-width:992px){
+    i.menuBar{
+        display: none !important;
+    }
+    header ul{
+        list-style: none;
+        margin-left: 15%;
+    }
+    header ul>li{
+        display: inline;
+        margin-left: 5%;
+ }
+    .borders img{
+        width: 100%;
+    }
+    header{
+        text-align: center;
+        background-color: #232323;
+        color: white;
+        font-size: 100%;
+        height: 90px;
+        line-height: 600%;
+     
+        width: 100%;
+    }
+    .slides{
+        color: white;
+        padding: 15%;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+    }
+    .slide{
+        width: 100%;
+    }
+    .main{
+        margin-top: 50px;
+    }
+    .borders{
+        border: 0.5px solid gray;
+        width: 30%;
+        margin-left: 3%;
+    }
+
+    .btn:hover{
+        background-color: black;
+        transition: all 0.5s;
+    }
+    .active{
+        background-color: white;
+        color: black;
+        position:fixed;
+        transition: all .6s;
+    }
+    header li>a:hover{
+        border-bottom: 3.2px solid red;
+        padding-bottom: 29px;
+        transition: all 0.6s;
+        color: inherit;
+    }
+    .slides2{
+        padding: 8% !important;
+    }
+}
+@media only screen and (min-width:768px){
+    .menuBar{
+        display:inline-block;
+        color: inherit;
+    }
+    i.menuBar:hover header ul{
+        list-style-type: none;
+    }
+    .borders img{
+        width: 100%;
+    }
+    header{
+        text-align: center;
+        background-color: #232323;
+        color: white;
+        font-size: 100%;
+        height: 90px;
+        line-height: 600%;
+     
+        width: 100%;
+    }
+    .slides{
+        color: white;
+        padding: 15%;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+    }
+    .slide{
+        width: 100%;
+    }
+    .main{
+        margin-top: 50px;
+    }
+    .borders{
+        border: 0.5px solid gray;
+        width: 30%;
+        margin-left: 3%;
+    }
+
+    .btn:hover{
+        background-color: black;
+        transition: all 0.5s;
+    }
+    .active{
+        background-color: white;
+        color: black;
+        position:fixed;
+        transition: all .6s;
+    }
+    header li>a:hover{
+        border-bottom: 3.2px solid red;
+        padding-bottom: 29px;
+        transition: all 0.6s;
+        color: inherit;
+    }
+    .slides2{
+        padding: 8% !important;
+    }
+}

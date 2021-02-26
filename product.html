@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="style/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="bg-danger mother position-absolute">
+        <div class="bg-white zooming">
+            <div class="bg-white zooming">
+                <div class="bg-white zooming"></div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-9">
+                    <p><b><a href="index.html">SIXTEEN <span class="text-danger">CLOTHING</span></a></b></p>
+                </div>
+                <div class="col-lg-9 col-md-3">
+                    <i class="fas fa-bars menuBar"></i>
+                    <ul>
+                        <li><a href="index.html"><b>Home</b></a></li>
+                        <li class="mainPage"><a href="product.html"><b>Our Product</b></a></li>
+                        <li><a href="about.html"><b>About Us</b></a></li>
+                        <li><a href="contact.html"><b>Contact Us</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="slides slides2" style="background-image: url(images/products-heading.jpg);">
+        <div class="slide">
+            <p class="fw-bold text-danger">NEW ARRIVALS</p>
+            <H1>SIXTEEN PRODUCTS</H1>
+        </div>
+    </div>
+    <div class="container main">
+        <nav>
+            <ul type="none">
+                <li class="allProduct fw-bold">ALL PRODUCTS</li>
+                <li class="featured fw-bold" onclick="displays(featured1,featured2, flash1, flash2, mute1,mute2)">FEATURED</li>
+                <li class="flash fw-bold" onclick="displays(flash1, flash2, featured1,featured2,mute1,mute2)">FLASH DEALS</li>
+                <li class="minute fw-bold" onclick="displays(mute1,mute2, flash1, flash2, featured1,featured2)">LAST MINUTE</li>
+            </ul>
+        </nav><hr>
+    </div> 
+    <div class="container main">
+        <div class="row gx-0">
+            <div class="col-lg-4 borders  col-md-12 featured1">
+                <a href="#"><img src="images/product_01.jpg" alt="product1"></a><br><br>
+                <div class="row px-4">
+                    <div class="col-lg-9 col-md-12"><b style="color: #1A6692;">Tittle goes here</b></div>
+                    <div class="col-lg-3 col-md-12"><b>$25.75</b></div>
+                </div><br>
+                <p class="px-4">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-12">
+                        <p style="color: red;"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p style="color: red;">Reviews (24)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 borders col-md-12 flash1">
+                <a href="#"><img src="images/product_02.jpg" a_0lt="product2"></a><br><br>
+                <div class="row px-4">
+                    <div class="col-lg-9 col-md-12"><b style="color: #1A6692;">Tittle goes here</b></div>
+                    <div class="col-lg-3 col-md-12"><b>$30.25</b></div>
+                </div><br>
+                <p class="px-4">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-12">
+                        <p style="color: red;"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p style="color: red;">Reviews (21)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 borders col-md-12 mute1">
+                <a href="#"><img src="images/product_03.jpg" alt="product3"></a><br><br>
+                <div class="row px-4">
+                    <div class="col-lg-9 col-md-12"><b style="color: #1A6692;">Tittle goes here</b></div>
+                    <div class="col-lg-3 col-md-12"><b>$20.45</b></div>
+                </div><br>
+                <p class="px-4">Sixteen Clothing is free CSS template provided by TemplateMo.</p>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-12">
+                        <p style="color: red;"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p style="color: red;">Reviews (36)</p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="row gx-0">
+            <div class="col-lg-4 borders col-md-12 mute2">
+                <a href="#"><img src="images/product_04.jpg" alt="product4"></a><br><br>
+                <div class="row px-4">
+                    <div class="col-lg-9 col-md-12"><b style="color: #1A6692;">Tittle goes here</b></div>
+                    <div class="col-lg-3 col-md-12"><b>$15.25</b></div>
+                </div><br>
+                <p class="px-4">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-12">
+                        <p style="color: red;"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p style="color: red;">Reviews (48)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 borders col-md-12 flash2">
+                <a href="#"><img src="images/product_05.jpg" alt="product5"></a><br><br>
+                <div class="row px-4">
+                    <div class="col-lg-9 col-md-12"><b style="color: #1A6692;">Tittle goes here</b></div>
+                    <div class="col-lg-3 col-md-12"><b>$12.20</b></div>
+                </div><br>
+                <p class="px-4">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-12">
+                        <p style="color: red;"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p style="color: red;">Reviews (16)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 borders featured2">
+                <a href="#"><img src="images/product_06.jpg" alt="product6"></a><br><br>
+                <div class="row px-4">
+                    <div class="col-lg-9 col-md-12"><b style="color: #1A6692;">Tittle goes here</b></div>
+                    <div class="col-lg-3 col-md-12"><b>$22.50</b></div>
+                </div><br>
+                <p class="px-4">Sixteen Clothing is free CSS template provided by TemplateMo.</p>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-12">
+                        <p style="color: red;"><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <p style="color: red;">Reviews (32)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <nav class="nav2">
+            <ul type="none">
+                <li class="fw-bold"><a href="#">1</a></li>
+                <li class="fw-bold getHover"><a href="#">2</a></li>
+                <li class="fw-bold"><a href="#">3</a></li>
+                <li class="fw-bold"><a href="#">4</a></li>
+                <li  class="fw-bold"style="letter-spacing: -5px;"><a href="#">>></a></li>
+            </ul>
+        </nav><br><br><hr><br><br>
+    </div>
+    <footer style="text-align: center;">
+        <p>COPYRIGHT © 2020 SIXTEEN CLOTHING CO., LTD. - DESIGNED BY <a href="" style="color: red !important;">ELNUR</a></p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
