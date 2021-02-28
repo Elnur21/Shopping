@@ -13,3 +13,13 @@ window.addEventListener("scroll", function(){
     }
     console.log(scrollTop)
 });
+let menuBar = document.querySelector(".menuBar");
+menuBar.addEventListener("click", function(){
+    let headerUl = document.querySelector(".header-ul");
+    if(!headerUl.classList.contains("ulActive")){
+       headerUl.classList.add("ulActive");
+    }
+    else{
+        headerUl.classList.remove("ulActive");
+    }
+})

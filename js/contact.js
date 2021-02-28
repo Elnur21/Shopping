@@ -14,19 +14,24 @@ for(var aElement of aElements){
         var dataId = this.getAttribute("data-id");
         for(var pElement of pElements){
             pElement.classList.remove("DisplayBlock");
+            pElement.style.transition = "all 1s ease-in-out";
         }
         for(var pElement of pElements){
             if(pElement.getAttribute("data-number") == dataId){
                 pElement.classList.add("DisplayBlock");
+                pElement.style.transition = "all 1s ease-in-out";
             }
         }
+
     });
 }
 function changeDisplay(list){
     for(var x of aElements){
         x.classList.remove("DisplayBlock");
+        x.style.transition = "all 1s ease-in-out"
     }
     list.classList.add("DisplayBlock");
+    list.style.transition = "all 1s ease-in-out"
 }
 
 

@@ -22,11 +22,11 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-9">
+                <div class="col-lg-3 col-md-11 col-sm-12">
                     <p><b><a href="index.html">SIXTEEN <span class="text-danger">CLOTHING</span></a></b></p>
                 </div>
-                <div class="col-lg-9 col-md-3">
-                    <i class="fas fa-bars menuBar"></i>
+                <div class="col-lg-9 col-md-1 col-sm-2">
+                    <i class="fa fa-bars menuBar"></i>
                     <ul>
                         <li><a href="index.html"><b>Home</b></a></li>
                         <li><a href="product.html"><b>Our Product</b></a></li>
@@ -37,6 +37,12 @@
             </div>
         </div>
     </header>
+    <ul class="header-ul text-center position-fixed">
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="product.html"><b>Our Product</b></a></li>
+        <li><a href="about.html"><b>About Us</b></a></li>
+        <li class="mainPage"><a href="contact.html"><b>Contact Us</b></a></li>
+    </ul>
     <div class="slides slides2" style="background-image: url(images/contact-heading.jpg);">
         <div class="slide">
             <p class="fw-bold text-danger">CONTACT US</p>
@@ -46,8 +52,8 @@
     <div class="container"><br><br>
         <h3 class="mt-5">Our Location on Maps</h3><hr><br><br>
         <div class="row">
-            <div class="col-lg-8"><iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" width="100%" height="330px" style="border:0" allowfullscreen></iframe></div>
-            <div class="col-lg-4">
+            <div class="col-lg-8 col-md-8 col-sm-12"><iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" width="100%" height="330px" style="border:0" allowfullscreen></iframe></div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <h3 style="color: #1A6692;">About our office</h3>
                 <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -64,16 +70,16 @@
         </div><br><br>
         <h3 class="mt-5">Send us a Message</h3><hr><br><br>
         <div class="row">
-            <div class="col-lg-8">
-                <form>
-                    <input type="text" class="form-control" placeholder="Full Name"><br>
-                    <input type="email" class="form-control" placeholder="E-mail Adress"><br>
-                    <input type="text" class="form-control" placeholder="Subject"><br>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3" minlength="10" maxlength="50"></textarea>
-                    <br><button type="submit" class="btn btn-danger">Send Message</button>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <form method="get">
+                    <input type="text" class="form-control" placeholder="Full Name" required><br>
+                    <input type="email" class="form-control" placeholder="E-mail Adress" required><br>
+                    <input type="text" class="form-control" placeholder="Subject" required><br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3" minlength="10" maxlength="50" required></textarea>
+                    <br><input type="submit" value="Send Message" class="btn btn-danger">
                 </form>
             </div>
-            <div class="col-lg-4 accordions">
+            <div class="col-lg-4 col-md-4 col-sm-12 accordions">
                 <ul type="none"><hr>
                     <li><a style="color: #1A6692;" data-id = "1">Accordion Title One</a>
                         <p class="mt-2" data-number="1">
@@ -113,11 +119,11 @@ Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mo
         </h3>
         <hr><br><br>
         <div class="row" style="grid-gap: 3.5%;">
-            <div class="col-2"><img onmousedown="clickDown(document.querySelector('.col-2 img'))" src="images/client-01.png" alt="client-01"></div>
-            <div class="col-2"><img src="images/client-01.png" alt="client-01"></div>
-            <div class="col-2"><img src="images/client-01.png" alt="client-01"></div>
-            <div class="col-2"><img src="images/client-01.png" alt="client-01"></div>
-            <div class="col-2"><img src="images/client-01.png" alt="client-01"></div>
+            <div class="col-lg-2 col-md-3 col-sm-3"><img src="images/client-01.png" alt="client-01"></div>
+            <div class="col-lg-2 col-md-3 col-sm-3"><img src="images/client-01.png" alt="client-01"></div>
+            <div class="col-lg-2 col-md-3 col-sm-3"><img src="images/client-01.png" alt="client-01"></div>
+            <div class="col-lg-2 col-md-3 col-sm-3 client"><img src="images/client-01.png" alt="client-01"></div>
+            <div class="col-lg-2 col-md-3 col-sm-3 client"><img src="images/client-01.png" alt="client-01"></div>
         </div><br><br><br><br><hr>
     </div>
     <footer style="text-align: center;">

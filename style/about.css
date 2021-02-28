@@ -30,12 +30,7 @@
 .settings{
     grid-gap: 57px;
 }
-.settings>.col-lg-3{
-    background-color: white;
-    height: 400px;
-    text-align: center;
-    width: 30%;
-}
+
 .settingIcon{
     width: 100%;
     text-align: center;
@@ -48,4 +43,22 @@
     color: white;
     background-color: #F33F3F;
     padding: 20px;
+}
+@media only screen and (min-width:992px){
+    .settings>.col-lg-3{
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    grid-gap: 5%;
+    }
+}
+@media only screen and (max-width:991.9px){
+    .settings>.col-md-3{
+        background-color: white;
+        height: 400px;
+        text-align: center;
+    }
+    .client{
+        display: none;
+    }
 }
